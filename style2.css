@@ -1,0 +1,37 @@
+/* Styling Judul Utama */
+#judul-utama {
+  text-align: center;         /* Teks di tengah */
+  background-color: #ffa654;  /* Warna kotak oranye */
+  color: white;               /* Warna teks putih agar kontras */
+  padding: 20px 0;            /* Jarak dalam atas-bawah */
+  margin: 0 0 20px 0;         /* Margin bawah biar ada jarak ke teks */
+  font-family: sans-serif;
+}
+
+/* Styling Paragraf / Teks Umum */
+p {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #333333;
+  line-height: 1.5;
+  margin-left: 20px;          /* Memberi jarak dari pinggir kiri */
+}
+
+/* Styling Khusus untuk Kelas Highlight (Kelas RPL kamu) */
+.highlight {
+  font-weight: bold;
+  color: #d96b00;             /* Warna oranye lebih tua biar menonjol */
+}
+
+/* Styling untuk Daftar Hobi (ul) */
+ul {
+  font-family: sans-serif;
+  margin-left: 20px;          /* Jarak dari kiri */
+  line-height: 1.8;           /* Spasi antar baris hobi biar tidak menempel */
+}
+
+/* Styling untuk Item Daftar Hobi (li) */
+ul li {
+  color: #444444;
+  font-size: 15px;
+}
